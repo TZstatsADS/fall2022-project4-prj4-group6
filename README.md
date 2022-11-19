@@ -12,7 +12,8 @@ Term: Fall 2022
 	+ Gabriel Spade
 	+ Yayuan Wang
 	+ Jiapeng Xu
-+ Project summary: 
+	
++ Project summary:
 	
 **Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
