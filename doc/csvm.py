@@ -24,11 +24,11 @@ class SVM:
         max_iter = max_iter # maximum number of iterations for the minimization algorithm
 
         if apply_fairness_constraints == 0:
-            w = self.traindef(x,y,lamb,C,epochs,lr)
+            w = self.train_default(x,y,lamb,C,epochs,lr)
             return w
         
         elif apply_fairness_constraints == 1:
-            print ("running Custom model")
+            print("Running custom model")
 
             if gamma is not None and gamma !=0:
 
@@ -134,10 +134,10 @@ class SVM:
         return constraints
         
         
-    def traindef(self,X,Y,lamb,C,epochs=500,lr=1):    # Input dimensions  X:(m,n) Y:(m,1)
+    def train_default(self,X,Y,lamb,C,epochs=500,lr=1):    # Input dimensions  X:(m,n) Y:(m,1)
         '''
 
-        Training SVM using Gradient decent approach
+        Training SVM using gradient descent approach
 
         Parameters
         ----------
@@ -150,7 +150,7 @@ class SVM:
 
         '''
 
-        print ("Train Default model")
+        print ("Train default model")
 
         n,m=X.shape[1] ,X.shape[0]
         w= np.zeros((n, 1))
