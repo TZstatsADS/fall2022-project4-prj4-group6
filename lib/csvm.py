@@ -16,7 +16,7 @@ class SVM:
             cost=1-value
         return cost
     
-    def training(self,x,y,x_control,loss_function,C,max_iter,lamb,epochs=500,lr=1, apply_fairness_constraints = 0, sensitive_attrs = ['sex'], sensitive_attrs_to_cov_thresh = {},gamma=None):
+    def train_model(self,x,y,x_control,loss_function,C,max_iter,lamb,epochs=500,lr=1, apply_fairness_constraints = 0, sensitive_attrs = ['sex'], sensitive_attrs_to_cov_thresh = {},gamma=None):
         '''
         This function return the model weight after training
         '''
