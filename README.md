@@ -15,12 +15,18 @@ Term: Fall 2022
 	
 + Project summary: In this project, we are comparing two methodologies introduced by [A2-Maximizing accuracy under fairness constraints (C-SVM and C-LR)](https://arxiv.org/abs/1507.05259) and [A7-Information Theoretic Measures for Fairness-aware Feature selection (FFS)](https://arxiv.org/abs/2106.00772) to obtain a better understanding of the trade-off between accuracy and fairness. The criterion we use to quantify fairness is calibration, meaning that the prediction accuracy of the protected group ought to be equal to the accuracy of the unprotected group.
 
-  A2 proposes an in-processing method which modifies the cost functions/constraints, adding constraints to the loss function so that the algorithm can take the fairness into account. A7 introduces a way to select features in a more fair way by considering attributes’ marginal accuracy and discrimination coefficients. 
+  A2 proposes an in-processing method that modifies the cost functions/constraints, adding constraints to the loss function so that the algorithm can take fairness into account. A7 introduces a way to select features in a more fair way by considering attributes’ marginal accuracy and discrimination coefficients.  
  
-  Baed on the results, we conclude that between two methods, the feature selection approach does a better job of increasing accuracy and lowering the calibration. In addition, With similar accuracy scores, S-SVM is more promising regarding trade-off accuracy and fairness considerations. 
+  Based on the results, we conclude that between the two methods, the feature selection approach does a better job of increasing accuracy and lowering the calibration. In addition, With similar accuracy scores, S-SVM is more promising regarding trade-off accuracy and fairness considerations. 
 
 	
 **Contribution statement**: 
+
++ Xilin Huang:
++ Kieu-Giang Nguyen:
++ Gabriel Spade:
++ Yayuan Wang (presenter): outlined the overall structure of the python notebook, did data cleansing, constructed the baseline models (logistic regression and SVM without fairness considerations), integrated each part from the teammates, and completed the model evaluation/comparison part. 
++ Jiapeng Xu:
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
