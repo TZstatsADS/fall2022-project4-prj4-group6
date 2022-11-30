@@ -14,7 +14,9 @@ Term: Fall 2022
 	+ Jiapeng Xu
 	
 + Project summary: In this project, we are comparing two methodologies introduced by [A2-Maximizing accuracy under fairness constraints (C-SVM and C-LR)](https://arxiv.org/abs/1507.05259) and [A7-Information Theoretic Measures for Fairness-aware Feature selection (FFS)](https://arxiv.org/abs/2106.00772) to obtain a better understanding of the trade-off between accuracy and fairness. The criterion we use to quantify fairness is calibration, meaning that the prediction accuracy of the protected group ought to be equal to the accuracy of the unprotected group.
+
   A2 proposes an in-processing method which modifies the cost functions/constraints, adding constraints to the loss function so that the algorithm can take the fairness into account. A7 introduces a way to select features in a more fair way by considering attributes’ marginal accuracy and discrimination coefficients. 
+ 
   Baed on the results, we conclude that between two methods, the feature selection approach does a better job of increasing accuracy and lowering the calibration. In addition, With similar accuracy scores, S-SVM is more promising regarding trade-off accuracy and fairness considerations. 
 
 	
