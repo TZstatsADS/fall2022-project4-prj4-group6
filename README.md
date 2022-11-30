@@ -22,7 +22,7 @@ Term: Fall 2022
 	
 **Contribution statement**: 
 
-+ Xilin Huang: Responsible for A2 C-SVM part. Did research for A2 C-SVM part. Implemented C-SVM model. And wrote the explanation for C-SVM part.
++ Xilin Huang: Responsible for A2 C-SVM part. Did research for A2 C-SVM part. Implemented C-SVM model. And wrote the comment for C-SVM part.
 + Kieu-Giang Nguyen:
 + Gabriel Spade:
 + Yayuan Wang (presenter): learned both A2 & A7 papers, outlined the overall structure of the python notebook, did data cleansing, constructed the baseline models (logistic regression and SVM without fairness considerations), integrated each part from the teammates, and completed the model evaluation/comparison part. 
