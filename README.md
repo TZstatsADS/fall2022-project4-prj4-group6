@@ -17,7 +17,7 @@ Term: Fall 2022
 
   A2 proposes an in-processing method that modifies the cost functions/constraints, adding constraints to the loss function so that the algorithm can take fairness into account. A7 introduces a way to select features in a more fair way by considering attributes’ marginal accuracy and discrimination coefficients.  
  
-  Based on the results, we conclude that between the two methods, the feature selection approach does a better job of increasing accuracy and lowering the calibration. In addition, With similar accuracy scores, S-SVM is more promising regarding trade-off accuracy and fairness considerations. 
+  Based on the results, we conclude that between the two methods, the feature selection approach does a better job of increasing accuracy and lowering the calibration. In addition, with similar accuracy scores, S-SVM is more promising regarding trade-off accuracy and fairness considerations. 
 
 	
 **Contribution statement**: 
