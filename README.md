@@ -23,7 +23,7 @@ Term: Fall 2022
 **Contribution statement**: 
 
 + Xilin Huang: Responsible for A2 C-SVM part. Did research for A2 C-SVM part. Implemented C-SVM model. And wrote the comment for C-SVM part.
-+ Kieu-Giang Nguyen:
++ Kieu-Giang Nguyen: did research on A2 methods, implemented A2 C-LR model based on the paper and source code, and validated the algorithm using accuracy and calibration.
 + Gabriel Spade:
 + Yayuan Wang (presenter): learned both A2 & A7 papers, outlined the overall structure of the python notebook, did data cleansing, constructed the baseline models (logistic regression and SVM without fairness considerations), integrated each part from the teammates, and completed the model evaluation/comparison part. 
 + Jiapeng Xu: researched paper A7, implemented the algorithm in the paper, validated the algorithm using accuracy and calibration on our baseline models, and finally, contributed the explanation of algorithm A7 on the presentation slides
