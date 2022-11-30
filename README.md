@@ -26,7 +26,7 @@ Term: Fall 2022
 + Kieu-Giang Nguyen:
 + Gabriel Spade:
 + Yayuan Wang (presenter): outlined the overall structure of the python notebook, did data cleansing, constructed the baseline models (logistic regression and SVM without fairness considerations), integrated each part from the teammates, and completed the model evaluation/comparison part. 
-+ Jiapeng Xu:
++ Jiapeng Xu: researched paper A7, implemented the algorithm in the paper, validated the algorithm using accuracy and calibration on our baseline models, and finally, contributed the explanation of algorithm A7 on the presentation slides
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
